@@ -1,0 +1,44 @@
+@charset "utf-8";
+html, body { font-family:"微软雅黑"}
+body{background: url(../imges/back.jpg);background-size: 100% 100%;}
+a{text-decoration:none;}
+.main{width: 950px; margin: 0 auto;} /*用于整体的一个宽度的让所有内容都在这个限定里面*/
+.logo{float: right;width:300px;}/*对logo的设定 漂浮右边 宽度300*/
+.biaoti h1{color: aliceblue;float:left;}/*对标题的设定*/
+.biaoti h1:hover{color: aqua;}/*鼠标滑过标题的一个伪类用于变色*/
+       
+.daohang{float:left; list-style:none;font-size:20px;margin-top:30px;}/*导航栏的设定*/
+    .daohang li{display: inline;margin-left:10px;}/*显示在一行上*/
+    .daohang a{color:red;text-decoration:none;}/* 颜色和去掉超链接的下划线 */
+    .daohang a:hover{color: aqua;}/*经过变色*/
+.hengfu{width:950px;margin: 0 auto;}/*横幅的设置*/
+.hengfu img{height:300px; width: 950px;}/*横幅图片的大小控制*/
+
+.main2{width: 600px;height: 450px;float: left;margin-top: 10px;border: #A5A5A5 medium inset;}/*精彩图片区域的控制*/
+.main2 h2{color: red;}/*精彩图片四个字的颜色啥*/
+
+/*下面都是对图片的位置 大小的设定 还有漂浮*/
+.main21{width:300px;height: 300px;float: left;}
+.main21 img{width:280px;height: 280px;float: left;margin: 5px 5px 5px 5px;}
+    .main22 {width:300px;height:300px;float: left;}
+    .main22  img{width:280px;height:130px;float: left;margin: 5px 5px 5px 5px;}
+    .main23{width:600px;height: 150px;float: left;}
+.main23-1{width:200px;height:150px;float: left;}
+.main23-1 img{width:190px;height:70px;float: left;margin: 5px 5px 5px 5px;}
+.main23-2 img{width:390px;height:70px;float: left;margin: 5px 5px 5px 5px;}
+.main23-2{width:400px;height:150px;float: left;}
+/*影视介绍的css修饰*/
+.main3{width:325px;height: 450px;float: left;margin-top: 10px;margin-left:10px; border: #A5A5A5 medium inset;}
+.main3 h2{color: red;}
+.main3 p{color: aliceblue;}
+/*演员 css*/
+.main4{width:950px;height:200px;float: left;margin-top: 10px;border: #A5A5A5 medium inset;}/*宽度边框等设置*/
+.main4 h2{color: red;}/*字体颜色*/
+.jdhw{float: left;margin-left: 10px;list-style: none;}/*列表的设置 */
+.jdhw a{color: aliceblue;}
+.jdhw a:hover{color: aqua;}/* 鼠标经过变色*/
+.weiba{float:left;width:950px;height:150px;margin-top:20px;text-align:center; color:#fff;}
+  .weiba p{text-align:center;color:#fff;margin-bottom:20px;}/*版权区域*/
+    .yqlj li{display: inline;margin-left:10px; list-style:none;}
+    .yqlj a{color:red;text-decoration:none;}
+
